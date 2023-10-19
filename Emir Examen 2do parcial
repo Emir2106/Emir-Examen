@@ -1,0 +1,21 @@
+https://replit.com/join/sjdujwearv-emirgutierrez1
+
+
+"""La cafeteria de Ana"""
+temperatura=int(input("1-100"))
+
+if temperatura < 50:
+ print ("Debe esperar a que se caliente la bebida")
+elif temperatura >= 50 and temperatura <= 70:
+ print ("Se puede servir de inmediato")
+elif temperatura > 70:
+ print ("Bebida muy caliente, debe esperar a que se enfrie")
+
+hora=int(input("6:00-11:00"))
+hora_inical = ("6:00, 7:00, 8:00")
+hora_final  = ("9:00, 10:00, 11:00")
+if hora_inical >= hora_final:
+  print ("Las bebidas calientes se sirven mas rapido")
+
+else:
+  print ("Espera tu turno")
